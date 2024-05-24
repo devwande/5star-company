@@ -9,9 +9,9 @@ import needHelp from "./assets/images/need-help.png";
 function App() {
   return (
     <div className="flex h-screen">
-      <div>
-        <img src={leftSection} alt="leftImage" className="h-screen" />
-      </div>
+
+        <img src={leftSection} alt="leftImage" className="h-screen w-96" />
+
 
       <div className="flex flex-col justify-between w-full">
         <div>
@@ -71,9 +71,10 @@ function App() {
 
               <button
                 type="button"
-                className="bg-darkblue text-white font-normal font-zenkaku px-4 h-14 flex items-center"
+                className="bg-darkblue text-white font-zenkaku flex items-center p-4 w-full"
               >
-                Become a Member <img src={next} alt="next" className="ml-48" />
+                <p className=" flex">Become a Member </p>
+                <img src={next} alt="next" className="ml-48 w-10" />
               </button>
             </form>
           </div>
