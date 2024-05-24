@@ -9,9 +9,7 @@ import needHelp from "./assets/images/need-help.png";
 function App() {
   return (
     <div className="flex h-screen">
-
-        <img src={leftSection} alt="leftImage" className="h-screen w-96" />
-
+      <img src={leftSection} alt="leftImage" className="h-screen w-96" />
 
       <div className="flex flex-col justify-between w-full">
         <div>
@@ -38,7 +36,7 @@ function App() {
               SIGN UP AND JOIN THE PARTNERSHIP
             </p>
 
-            <form className="flex flex-col w-1/3 space-y-5 pt-5">
+            <form className="flex flex-col space-y-5 pt-5 w-[420px]">
               <div className="relative flex items-center">
                 <img src={iconUser} alt="icon-user" className="absolute ml-3" />
                 <input
@@ -73,7 +71,8 @@ function App() {
                 type="button"
                 className="bg-darkblue text-white font-zenkaku flex items-center p-4 w-full"
               >
-                <p className=" flex">Become a Member </p>
+                <p className="">Become a Member </p>
+                {/* use react icons */}
                 <img src={next} alt="next" className="ml-48 w-10" />
               </button>
             </form>
