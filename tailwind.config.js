@@ -19,7 +19,7 @@ export default {
       // }
     },
     fontFamily: {
-        zenkaku: "Zen Kaku Gothic Antique",
+        zenkaku: ["Zen Kaku Gothic Antique", "sans-serif"],
     }
   },
   plugins: [],
