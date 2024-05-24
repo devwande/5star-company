@@ -45,17 +45,17 @@ function App() {
                   type="text"
                   id="username"
                   placeholder="Johnson Doe"
-                  className="bg-white border border-lightgrey text-grey font-zenkaku font-normal px-4 h-14 pl-10"
+                  className="bg-white border border-lightgrey text-grey font-zenkaku font-normal px-4 h-14 pl-10 w-full"
                 />
               </div>
 
               <div className="relative flex items-center">
-                <img src={email} alt="email" className="absolute ml-3" />
+                <img src={email} alt="email" className="absolute ml-3 " />
                 <input
                   type="email"
                   id="email"
                   placeholder="example@email.com"
-                  className="bg-white border border-lightgrey text-grey font-zenkaku font-normal px-4 h-14 pl-10"
+                  className="bg-white border border-lightgrey text-grey font-zenkaku font-normal px-4 h-14 pl-10 w-full"
                 />
               </div>
 
@@ -65,7 +65,7 @@ function App() {
                   type="password"
                   id="password"
                   placeholder="*********"
-                  className="bg-white border border-lightgrey text-grey font-zenkaku font-normal px-4 h-14 pl-10"
+                  className="bg-white border border-lightgrey text-grey font-zenkaku font-normal px-4 h-14 pl-10 w-full"
                 />
               </div>
 
@@ -73,8 +73,7 @@ function App() {
                 type="button"
                 className="bg-darkblue text-white font-normal font-zenkaku px-4 h-14 flex items-center"
               >
-                Become a Member{" "}
-                <img src={next} alt="next" className="ml-48" />
+                Become a Member <img src={next} alt="next" className="ml-48" />
               </button>
             </form>
           </div>
@@ -83,7 +82,10 @@ function App() {
           <p className="font-zenkaku font-400 text-lightash">
             Copyright 2021 - 2022 5Starcompany. All rights Reserved
           </p>
-          <button type="button" className="flex items-center font-zenkaku font-normal text-grey">
+          <button
+            type="button"
+            className="flex items-center font-zenkaku font-normal text-grey"
+          >
             <img src={needHelp} alt="need help icon" className="mr-2" />
             Need Help?
           </button>
